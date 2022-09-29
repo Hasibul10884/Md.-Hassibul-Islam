@@ -1,0 +1,331 @@
+/* Estilos Gerais */
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap");
+  font-family: "Be Vietnam Pro", arial, verdana, sans-serif;
+  font-size: 35px;
+  background-color: #f5f8f6;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  color: #838383;
+}
+h2 {
+  color: #656966;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 160px;
+  padding-bottom: 65px;
+}
+.title img,
+.menu-nav img {
+  display: inline;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* Header */
+
+.menu-nav ul {
+  color: #303a33;
+  padding: 35px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: right;
+}
+.menu-nav a {
+  font-size: 28px;
+  color: #303a33;
+  padding: 20px;
+}
+
+.menu-nav .red {
+  color: #961b2a;
+}
+
+/* home */
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro {
+  max-width: 630px;
+}
+.intro h1 {
+  font-weight: 600;
+  font-size: 50px;
+  padding-bottom: 37px;
+  color: #3a3a3a;
+}
+.intro-button {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.intro button {
+  color: white;
+  width: 250px;
+  padding: 10px 24px;
+  background: #961b2a;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border: none;
+}
+.intro button:hover {
+  background: #3d563f;
+  scale: 105%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14), 0px 8px 5px rgba(0, 0, 0, 0.12),
+    0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  max-width: 620px;
+  position: relative;
+}
+.avatar-img {
+  padding-top: 100px;
+}
+
+.avatar img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+.avatar img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.avatar img:nth-child(4) {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.avatar img:nth-child(6) {
+  position: absolute;
+  right: -10px;
+  bottom: -40px;
+}
+
+/* Skills */
+.skills-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tech-flex {
+  max-width: 670px;
+}
+.tech-list ul {
+  max-width: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* Projects */
+.projects p {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.works {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.works-item {
+  margin: 10px;
+}
+.works-item img {
+  max-width: 400px;
+  max-height: 280px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+}
+.works-item img:hover {
+  scale: 105%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14), 0px 8px 5px rgba(0, 0, 0, 0.12),
+    0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.works-txt {
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 400px;
+  height: 150px;
+  background-color: #3d563f;
+  border: 2px solid #578965;
+  border-radius: 10px;
+}
+.works-txt p {
+  font-size: 20px;
+  color: #fff;
+  padding: 40px 30px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contato_form input {
+  display: block;
+  font-size: 30px;
+  padding: 56px 20px 20px 20px;
+  color: #838383;
+  text-decoration: underline;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+.contato_form textarea {
+  display: block;
+  margin-top: 30px;
+  font-size: 30px;
+  width: 100%;
+  padding: 20px 20px;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+
+  color: #838383;
+}
+.contato_form .btn {
+  margin: 45px 166px;
+  width: 181px;
+  height: 66px;
+  font-size: 36px;
+  background: #961b2a;
+  border-style: none;
+  border-radius: 4px;
+  color: #fffdfd;
+  padding: 15px 69px 15px 20px;
+}
+.btn img {
+  display: inline-block;
+}
+
+.btn {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  background: #3d563f;
+  scale: 105%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14), 0px 8px 5px rgba(0, 0, 0, 0.12),
+    0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.button-icon {
+  position: absolute;
+  padding-left: 10px;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}
+
+/* Footer */
+.footer-bg {
+  background: url(../img/wave.png) no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.social p,
+.github p:first-child {
+  margin-top: 150px;
+  color: #fff;
+}
+.github p {
+  color: #fff;
+}
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.github a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social img:hover {
+  scale: 105%;
+}
+.github img:hover,
+.github a p:hover {
+  scale: 105%;
+}
+
+
+@media only screen and (max-width: 1279px) {
+  .works {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .home {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .skills-flex {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .contact {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .menu-nav ul {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .footer {
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
